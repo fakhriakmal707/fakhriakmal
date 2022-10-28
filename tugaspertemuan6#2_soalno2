@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string.h>
+using namespace std;
+
+int main(){
+  char Ka[60] = "KAMPUS UNGU INSTITUT BISNIS DAN INFORMATIKA KESATUAN";
+  cout << "kata yang ingin dibalikan dan di ubah menjadi huruf kecil adalah: "<<endl<<Ka<<endl;
+  int r =strlen(Ka);
+
+  cout <<endl<<endl;
+  cout << "Menjadi : "<<endl;
+for(int s = r - 1;r >=0;r--){
+  Ka[r]=tolower(Ka[r]);
+  cout<<Ka[r];
+}
+}
