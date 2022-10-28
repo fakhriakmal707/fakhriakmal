@@ -1,0 +1,10 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+  string kata ="FAKULTAS PARIWISATA DAN TEKNOLOGI INFORMASI";
+  cout <<"Kata yang ingin dihitung adalah= "<<kata<<endl;
+  cout <<"Panjang kata adalah= "<<kata.length();
+  return 0;
+}
